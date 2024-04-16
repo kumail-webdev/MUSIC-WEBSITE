@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIC APP ~ KUMAIL KK</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="menu-side">
+        <h1>Playlist</h1>
+        <div class="playlist">
+          <h4 class="active">
+            <span></span><i class="fa-solid fa-music"></i> Playlist
+          </h4>
+          <h4><span></span><i class="fa-solid fa-music"></i> Last Listening</h4>
+          <h4><span></span><i class="fa-solid fa-music"></i> Recommended</h4>
+        </div>
+        <div class="menu-songs">
+          <li class="song-item">
+            <span>01</span>
+            <img src="images/1.jpg" />
+            <h5>
+              Popular <br />
+              <span>The Weeknd</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="1"></i>
+          </li>
+          <li class="song-item">
+            <span>02</span>
+            <img src="images/2.jpg" />
+            <h5>
+              Ecstasy <br />
+              <span>Suicide Idol</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="2"></i>
+          </li>
+          <li class="song-item">
+            <span>03</span>
+            <img src="images/3.jpg" />
+            <h5>
+              Brwon Munde <br />
+              <span>AP Dhillon</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="3"></i>
+          </li>
+          <li class="song-item">
+            <span>04</span>
+            <img src="images/4.jpg" />
+            <h5>
+              Escapism <br />
+              <span>Shake & Raye</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="4"></i>
+          </li>
+          <li class="song-item">
+            <span>05</span>
+            <img src="images/5.jpg" />
+            <h5>
+              295 <br />
+              <span>Sidhu Moose Wala</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="5"></i>
+          </li>
+          <li class="song-item">
+            <span>06</span>
+            <img src="images/6.jpg" />
+            <h5>
+              Wo Lamhe <br />
+              <span>Atif Aslam</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="6"></i>
+          </li>
+          <li class="song-item">
+            <span>07</span>
+            <img src="images/7.jpg" />
+            <h5>
+              Bachke Bachke <br />
+              <span>Karan Aujla</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="7"></i>
+          </li>
+          <li class="song-item">
+            <span>08</span>
+            <img src="images/8.jpg" />
+            <h5>
+              Star Boy <br />
+              <span>The Weeknd</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="8"></i>
+          </li>
+          <li class="song-item">
+            <span>09</span>
+            <img src="images/9.jpg" />
+            <h5>
+              Still Rollin <br />
+              <span>Shubh</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="9"></i>
+          </li>
+          <li class="song-item">
+            <span>10</span>
+            <img src="images/10.jpg" />
+            <h5>
+              Kalam Eneih <br />
+              <span>Sherine</span>
+            </h5>
+            <i class="fa-solid fa-circle-play" id="10"></i>
+          </li>
+        </div>
+      </div>
+      <div class="song-side">
+        <nav>
+          <ul>
+            <li>Discover</li>
+            <li class="active">My Library</li>
+            <li>Radio</li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search Song..." />
+            <div class="search-result">
+              <!-- <a href="" class="search-card">
+                <img src="images/1.jpg">
+                <div class="text">
+                  Popular <br> <span>The Weeknd</span>
+                </div>
+              </a> -->
+            </div>
+          </div>
+          <div class="user">
+            <a href="login.html"><img src="images/user.jpg" /></a>
+          </div>
+        </nav>
+        <div class="content">
+          <h1>THE WEEKND-POPULAR</h1>
+          <p>
+            Beggin' on her knees to be popular. That's her dream, to be
+            popular<br />
+            Kill anyone to be popular. Sell her soul to be popular
+          </p>
+          <div class="btns">
+            <button>Play</button>
+            <button>Follow</button>
+          </div>
+        </div>
+        <div class="popular-songs">
+          <div>
+            <h4>Most Popular Songs</h4>
+            <div>
+              <i class="fa-solid fa-arrow-left" id="song-left-arrow"></i>
+              <i class="fa-solid fa-arrow-right" id="song-right-arrow"></i>
+            </div>
+          </div>
+          <div class="song-cards">
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/11.jpg" />
+                <i class="fa-solid fa-circle-play" id="11"></i>
+              </div>
+              <h5>
+                Downers At Dusk <br />
+                <span>Talha Anjum</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/12.jpg" />
+                <i class="fa-solid fa-circle-play" id="12"></i>
+              </div>
+              <h5>
+                Teri Deewani <br />
+                <span>Kailash kher</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/13.jpg" />
+                <i class="fa-solid fa-circle-play" id="13"></i>
+              </div>
+              <h5>
+                Drunk and Nasty <br />
+                <span>Pi'erre Bourne</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/14.jpg" />
+                <i class="fa-solid fa-circle-play" id="14"></i>
+              </div>
+              <h5>
+                Husn <br />
+                <span>Husn</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/15.jpg" />
+                <i class="fa-solid fa-circle-play" id="15"></i>
+              </div>
+              <h5>
+                Dil Pe Zakham<br />
+                <span>Nfak</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/16.jpg" />
+                <i class="fa-solid fa-circle-play" id="16"></i>
+              </div>
+              <h5>
+                Cheques <br />
+                <span>Shubh</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/17.jpg" />
+                <i class="fa-solid fa-circle-play" id="17"></i>
+              </div>
+              <h5>
+                Mockingbird <br />
+                <span>Eminem</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/18.jpg" />
+                <i class="fa-solid fa-circle-play" id="18"></i>
+              </div>
+              <h5>
+                Tareefan <br />
+                <span>Karan Aujla</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/19.jpg" />
+                <i class="fa-solid fa-circle-play" id="19"></i>
+              </div>
+              <h5>
+                Sabre Aalil <br />
+                <span>Sherine</span>
+              </h5>
+            </li>
+            <li class="song-item">
+              <div class="card-img">
+                <img src="images/20.jpg" />
+                <i class="fa-solid fa-circle-play" id="20"></i>
+              </div>
+              <h5>
+                9:45 <br />
+                <span>Prabh</span>
+              </h5>
+            </li>
+          </div>
+        </div>
+        <div class="popular-artists">
+          <div class="heading">
+            <h4>Most Popular Artists</h4>
+            <div>
+              <i class="fa-solid fa-arrow-left" id="artist-left-arrow"></i>
+              <i class="fa-solid fa-arrow-right" id="artist-right-arrow"></i>
+            </div>
+          </div>
+          <div class="artists-list">
+            <li>
+              <img src="images/artists/artist1.webp" />
+            </li>
+            <li>
+              <img src="images/artists/artist2.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist3.jpg" />
+            </li>
+            <li>
+              <img src="images/artists/artist4.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist5.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist6.jpg" />
+            </li>
+            <li>
+              <img src="images/artists/artist7.jpg" />
+            </li>
+            <li>
+              <img src="images/artists/artist8.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist9.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist10.webp" />
+            </li>
+            <li>
+              <img src="images/artists/artist11.jpg" />
+            </li>
+            <li>
+              <img src="images/artists/artist12.webp" />
+            </li>
+            <li>
+              <img src="images/artists/artist13.jpeg" />
+            </li>
+            <li>
+              <img src="images/artists/artist14.jpeg" />
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="play-side">
+        <div class="waves" id="waves">
+          <div class="wave"></div>
+          <div class="wave"></div>
+          <div class="wave"></div>
+        </div>
+        <img src="images/20.jpg" id="poster-master-play" />
+        <h5 id="title-master-play">
+          9:45 <br />
+          <span>Prabh Singh</span>
+        </h5>
+        <div class="icons">
+          <i id="shuffle" class="fa-solid fa-music">next</i>
+          <i class="fa-solid fa-backward-step" id="back"></i>
+          <i class="fa-solid fa-play" id="master-play"></i>
+          <i class="fa-solid fa-forward-step" id="next"></i>
+          <a href download id="download_btn"
+            ><i class="fa-solid fa-cloud-arrow-down"></i
+          ></a>
+        </div>
+        <span id="startTime">0:00</span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" />
+          <div class="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="endTime">2:37</span>
+        <div class="volume">
+          <i class="fa-solid fa-volume-high" id="vol_icon"></i>
+          <input type="range" min="0" max="100" id="vol" />
+          <div class="vol-bar"></div>
+          <div class="vol-dot"></div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
